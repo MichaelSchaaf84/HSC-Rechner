@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.min.css" />
+    <script src="./app.js" defer></script>
+    <title>HSC Rechner</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="gewinnen">
+        <fieldset>
+          <legend>Name</legend>
+          <div class="flex margin-right">
+            <label for="familienname">Familienname: </label>
+            <input name="familienname" id="familienname" />
+          </div>
+          <div class="flex margin-right">
+            <label for="vorname">Vorname: </label>
+            <input name="vorname" id="vorname" />
+          </div>
+        </fieldset>
+        <br />
+
+        <fieldset>
+          <legend>Bitte Monat auswählen</legend>
+          <div class="radioBtn">
+            <input type="radio" id="juni" name="Monat" value="juni" />
+            <label for="juni"> Juni</label>
+            <input type="radio" id="juli" name="Monat" value="juli" />
+            <label for="julie"> Juli</label>
+            <input type="radio" id="august" name="Monat" value="August" />
+            <label for="august"> August</label>
+          </div>
+        </fieldset>
+        <br />
+        <fieldset>
+          <legend>Bitte Spiele eingeben</legend>
+          <div class="wrapper">
+            <div class="flex">
+              <label for="spiel1">Spiel 1: </label>
+              <input name="spiel1" id="spiel1" />
+            </div>
+            <div class="flex">
+              <label for="spiel2">Spiel 2: </label>
+              <input name="spiel2" id="spiel2" />
+            </div>
+            <div class="flex">
+              <label for="spiel3">Spiel 3: </label>
+              <input name="spiel3" id="spiel3" />
+            </div>
+            <div class="flex">
+              <label for="spiel4">Spiel 4: </label>
+              <input name="spiel4" id="spiel4" />
+            </div>
+          </div>
+
+          <button class="calculate">Berechnen</button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
