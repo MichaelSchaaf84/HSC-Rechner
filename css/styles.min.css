@@ -1,2 +1,36 @@
-fieldset{display:flex;flex-direction:column}.flex{display:flex;flex-direction:column}.margin-right{margin-right:1rem}.container{display:flex;height:100vh;justify-content:center}fieldset .radioBtn{align-items:center}button{margin-top:1rem;padding:1rem}label{margin-bottom:0.2rem;margin-top:0.2rem}
-/*# sourceMappingURL=styles.min.css.map */
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.margin-right {
+  margin-right: 1rem;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  max-width: 50vw;
+  margin: 0 auto;
+  justify-content: center;
+  flex-direction: column;
+}
+
+fieldset .radioBtn {
+  align-items: center;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+label {
+  margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
+}/*# sourceMappingURL=styles.min.css.map */

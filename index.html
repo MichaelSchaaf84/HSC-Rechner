@@ -11,20 +11,20 @@
   <body>
     <div class="container">
       <form id="gewinnen">
-        <fieldset>
+        <fieldset class="name">
           <legend>Name</legend>
           <div class="flex margin-right">
-            <label for="familienname">Familienname: </label>
-            <input name="familienname" id="familienname" />
+            <label for="lastName">Nachname: </label>
+            <input type="text" value="Schaaf" name="lastName" id="lastName" />
           </div>
           <div class="flex margin-right">
-            <label for="vorname">Vorname: </label>
-            <input name="vorname" id="vorname" />
+            <label for="firstName">Vorname: </label>
+            <input type="text" value="Micha" name="firstName" id="firstName" />
           </div>
         </fieldset>
         <br />
 
-        <fieldset>
+        <fieldset class="monat">
           <legend>Bitte Monat auswählen</legend>
           <div class="radioBtn">
             <input type="radio" id="juni" name="Monat" value="juni" />
@@ -36,30 +36,35 @@
           </div>
         </fieldset>
         <br />
+        <fieldset class="handycap">
+            <label for="hc">Handycap: </label>
+            <input value="6" type="number" name="hc" id="hc" />
+        </fieldset>
+        <br/>
         <fieldset>
-          <legend>Bitte Spiele eingeben</legend>
+          <legend class="spiele">Bitte Spiele eingeben</legend>
           <div class="wrapper">
             <div class="flex">
               <label for="spiel1">Spiel 1: </label>
-              <input name="spiel1" id="spiel1" />
+              <input value="199" type="number" name="spiel1" id="spiel1" />
             </div>
             <div class="flex">
               <label for="spiel2">Spiel 2: </label>
-              <input name="spiel2" id="spiel2" />
+              <input value="233" type="number" name="spiel2" id="spiel2" />
             </div>
             <div class="flex">
               <label for="spiel3">Spiel 3: </label>
-              <input name="spiel3" id="spiel3" />
+              <input value="259" type="number" name="spiel3" id="spiel3" />
             </div>
             <div class="flex">
               <label for="spiel4">Spiel 4: </label>
-              <input name="spiel4" id="spiel4" />
+              <input value="200" type="number" name="spiel4" id="spiel4" />
             </div>
           </div>
 
-          <button class="calculate">Berechnen</button>
         </fieldset>
       </form>
+      <button class="calculate">Berechnen</button>
     </div>
   </body>
 </html>
