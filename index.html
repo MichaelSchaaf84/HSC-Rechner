@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.min.css" />
-    <script src="./app.js" defer></script>
+    <script type="module" src="./app.js" defer></script>
     <title>HSC Rechner</title>
   </head>
   <body>
@@ -37,10 +37,10 @@
         </fieldset>
         <br />
         <fieldset class="handycap">
-            <label for="hc">Handycap: </label>
-            <input value="6" type="number" name="hc" id="hc" />
+          <label for="hc">Handycap: </label>
+          <input value="6" type="number" name="hc" id="hc" />
         </fieldset>
-        <br/>
+        <br />
         <fieldset>
           <legend class="spiele">Bitte Spiele eingeben</legend>
           <div class="wrapper">
@@ -61,7 +61,6 @@
               <input value="200" type="number" name="spiel4" id="spiel4" />
             </div>
           </div>
-
         </fieldset>
       </form>
       <button class="calculate">Berechnen</button>
